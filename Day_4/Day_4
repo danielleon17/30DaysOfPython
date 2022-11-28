@@ -1,0 +1,68 @@
+uno ='Thirty' 
+dos='Days' 
+tres ='Of' 
+cuatro ='Python'
+espacio = ' '
+sentence = uno + espacio + dos + espacio + tres + espacio + cuatro
+print (len(sentence))
+
+uno ='Coding'
+dos='For' 
+tres ='All' 
+espacio = ' '
+sentence = uno + espacio + dos + espacio + tres
+print(len(sentence))
+
+company = "Coding For All"
+print(company)
+print(len(company))
+print(company.upper)
+print(company.lower)
+
+uno ='Coding'
+dos='For' 
+tres ='All' 
+espacio = ' '
+sentence = uno + espacio + dos + espacio + tres
+print(len(sentence))
+print(sentence.capitalize)
+print(sentence.title)
+print(sentence.swapcase)
+print(slice(sentence))
+print(sentence.index)
+print(sentence.replace('python', 'coding'))
+
+sentence = 'python for everyone'
+print(sentence.replace('everyone', 'all'))
+
+company = "Coding For All"
+print(company.split)
+
+sentence = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" 
+print(sentence.split)
+
+
+company = "Coding For All"
+print(company.index(0))
+print(company.index(3))
+print(company.index(10))
+
+sentence = 'python for everyone'
+print(sentence.islower)
+
+company = "Coding For All"
+print(company.islower)
+sub_string = 'C'
+sub_string = 'F'
+print(company.index(sub_string))
+print(company.index(sub_string))
+
+print(company.rfind('l'))
+
+oracion=  'You cannot end a sentence with because because because is a conjunction'
+print(oracion.find('because'))
+print(oracion.rfind('because'))
+print(oracion.split('because'))
+print(oracion.index('because'))
+print(oracion.split('because'))
+
